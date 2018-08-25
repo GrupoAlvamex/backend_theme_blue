@@ -4,12 +4,12 @@
 
 {
     "name": "Material/United Backend Theme",
-    "summary": "Odoo 10.0 community backend theme",
-    "version": "10.0.1.0.23",
+    "summary": "Odoo 11.0 community backend theme",
+    "version": "11.0.1.0.4",
     "category": "Themes/Backend",
     "website": "http://www.openworx.nl",
 	"description": """
-		Backend theme for Odoo 10.0 community edition.
+		Backend theme for Odoo 11.0 community edition.
     """,
 	'images':[
         'images/screen.png'
@@ -18,13 +18,14 @@
     "license": "LGPL-3",
     "installable": True,
     "depends": [
-	'web_responsive',
+        'web_responsive',
     ],
     "data": [
         'views/assets.xml',
         'views/res_company_view.xml',
         'views/users.xml',
         'views/sidebar.xml',
+        'views/web.xml',
     ],
 }
 
